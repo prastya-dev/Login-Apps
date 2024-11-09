@@ -1,0 +1,51 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./Backend
+    volumes:
+      - ./Backend:/var/www
+    ports:
+      - "9000:9000"
+    environment:
+      DB_CONNECTION: mysql
+      DB_HOST: db
+      DB_PORT: 3306
+      DB_DATABASE: projek
+      DB_USERNAME: talitha6 
+      DB_PASSWORD: litaa06
+
+
+
+
+  frontend:
+    build:
+      context: ./FrontEnd
+    volumes:
+      - ./FrontEnd:/usr/src/app
+      - node_modules:/usr/src/app/node_modules
+
+      
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_DATABASE: Database
+      MYSQL_USER: talitha6
+      MYSQL_PASSWORD: litaa06
+      MYSQL_ROOT_PASSWORD: litaa06
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./BackEnd/database.sql:/docker-entrypoint-initdb.d/database.sql
+
+volumes:
+  db_data:
+  node_modules:
