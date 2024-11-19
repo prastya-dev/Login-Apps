@@ -19,7 +19,7 @@ sudo apt install git
 git --version
 ```
 
-## # 2. Docker 🐳 
+### 2. Docker 🐳 
 Docker Diperlukan untuk menjalankan Projek ini
 kunjungi website resmi docker untuk proses instalasi
 - [Dokumentasi Docker Resmi](https://docs.docker.com)
