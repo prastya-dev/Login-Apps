@@ -1,6 +1,3 @@
-Berikut adalah file README.md yang bisa langsung Anda salin dan gunakan:
-
-```markdown
 # 🚀 Login-Apps
 
 Login-Apps adalah aplikasi sederhana yang menyediakan fitur login dan pendaftaran. Proyek ini menggunakan **React.js** untuk frontend, **Laravel** untuk backend, dan **MySQL** sebagai database, semua dikemas dalam **Docker** untuk memudahkan deployment.
