@@ -4,7 +4,7 @@ Login-Apps adalah aplikasi sederhana yang menyediakan fitur login dan pendaftara
 
 ## 🌟 Fitur
 - **Autentikasi pengguna**: Login, Signup, dan Logout.
-- **Manajemen Admin**: Hanya admin yang dapat mengelola data.
+- **Dashboard**: Dasboard untuk User.
 - **Live Chat** *(Coming Soon)*.
 - **Dockerized**: Mudah untuk diinstal dan dijalankan.
 
