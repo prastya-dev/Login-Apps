@@ -46,8 +46,13 @@ Login-Apps/
 ## 🤝 Kontribusi
 Kami menyambut kontribusi dari siapa saja! Jangan ragu untuk mengajukan **pull request** atau melaporkan **issues**.
 
-## 📜 Lisensi
-Proyek ini dilisensikan di bawah [MIT License](LICENSE).
+## 🚀 Resource:
+
+Laravel - Framework PHP untuk backend.
+React.js - Library JavaScript untuk membangun antarmuka pengguna.
+Tailwind CSS - Framework CSS untuk styling.
+MySQL - Sistem manajemen basis data relasional.
+Docker - Platform untuk pengembangan, pengiriman, dan menjalankan aplikasi dalam container.
 
 ---
 
