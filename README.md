@@ -8,6 +8,39 @@ Login-Apps adalah aplikasi sederhana yang menyediakan fitur login dan pendaftara
 - **Live Chat** *(Coming Soon)*.
 - **Dockerized**: Mudah untuk diinstal dan dijalankan.
 
+## ⚙️ Required
+
+### 1. Git 
+Git diperlukan untuk meng-clone repository ini. Gunakan perintah berikut untuk menginstalnya:
+
+```bash
+sudo apt update
+sudo apt install git
+git --version
+```
+
+## 🐳 Docker
+   `sudo apt install apt-transport-https ca-certificates curl software-properties-common`
+
+   `curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg -y`
+ 
+   `echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null`
+
+   `sudo apt update`
+
+   `apt-cache policy docker-ce`
+
+   `sudo apt install docker-ce`
+
+   `sudo systemctl status docker`
+
+   `sudo usermod -aG docker ${USER}`
+ 
+   `docker info`
+
+**Catatan:** Setelah menambahkan pengguna ke grup Docker, pastikan untuk **logout dan login kembali** agar perubahan grup berlaku.
+💻 Copyright © 2024 [Dea Afrizal](https://github.com/deaafrizal). 
+
 ## 🛠️ Instalasi
 
 1. **Clone repository ini** ke komputer Anda:
