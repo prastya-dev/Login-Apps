@@ -65,14 +65,18 @@ Login-Apps/
 Kami menyambut kontribusi dari siapa saja! Jangan ragu untuk mengajukan **pull request** atau melaporkan **issues**.
 
 ## 🚀 Resource:
-**
+
  - Laravel - Framework PHP untuk backend.
  - React.js - Library JavaScript untuk membangun antarmuka pengguna.
  - Tailwind CSS - Framework CSS untuk styling.
  - MySQL - Sistem manajemen basis data relasional.
  - Docker - Platform untuk pengembangan, pengiriman, dan menjalankan aplikasi dalam container.
-**
+
 ---
 
 ⭐ **Jangan lupa untuk memberi bintang pada repository ini jika Anda merasa terbantu!** ⭐
-```
+
+
+## 🙌 Credits
+ - Prastya-dev
+
