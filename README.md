@@ -20,24 +20,33 @@ git --version
 ```
 
 ## 🐳 Docker
-   `sudo apt install apt-transport-https ca-certificates curl software-properties-common`
-
+   ```bash 
+   sudo apt install apt-transport-https ca-certificates curl software-properties-common
+```
+```bash 
    `curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg -y`
- 
+ ```
+```bash 
    `echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null`
-
+```
+```bash 
    `sudo apt update`
-
+```
+```bash 
    `apt-cache policy docker-ce`
-
+```
+```bash 
    `sudo apt install docker-ce`
-
+```
+```bash 
    `sudo systemctl status docker`
-
+```
+```bash 
    `sudo usermod -aG docker ${USER}`
- 
+ ```
+```bash 
    `docker info`
-
+```
 **Catatan:** Setelah menambahkan pengguna ke grup Docker, pastikan untuk **logout dan login kembali** agar perubahan grup berlaku.
 💻 Copyright © 2024 [Dea Afrizal](https://github.com/deaafrizal). 
 
